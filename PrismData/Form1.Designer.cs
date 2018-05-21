@@ -141,7 +141,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.AuthNonceResponseLabel.Location = new System.Drawing.Point(607, 50);
             this.AuthNonceResponseLabel.Name = "AuthNonceResponseLabel";
-            this.AuthNonceResponseLabel.Size = new System.Drawing.Size(152, 14);
+            this.AuthNonceResponseLabel.Size = new System.Drawing.Size(152, 20);
             this.AuthNonceResponseLabel.TabIndex = 5;
             this.AuthNonceResponseLabel.Text = "Auth Nonce Response";
             this.AuthNonceResponseLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,7 +155,6 @@
             this.PrismServerName.Name = "PrismServerName";
             this.PrismServerName.Size = new System.Drawing.Size(153, 22);
             this.PrismServerName.TabIndex = 6;
-            this.PrismServerName.Text = "desktop-6vmrsdk";
             // 
             // AuthNonce
             // 
@@ -254,7 +253,7 @@
             this.tabControl.Location = new System.Drawing.Point(3, 18);
             this.tabControl.Name = "tabControl";
             this.tabControl.SelectedIndex = 0;
-            this.tabControl.Size = new System.Drawing.Size(943, 316);
+            this.tabControl.Size = new System.Drawing.Size(943, 319);
             this.tabControl.TabIndex = 16;
             // 
             // ResponsePayLoadTab
@@ -263,7 +262,7 @@
             this.ResponsePayLoadTab.Location = new System.Drawing.Point(4, 25);
             this.ResponsePayLoadTab.Name = "ResponsePayLoadTab";
             this.ResponsePayLoadTab.Padding = new System.Windows.Forms.Padding(3);
-            this.ResponsePayLoadTab.Size = new System.Drawing.Size(944, 384);
+            this.ResponsePayLoadTab.Size = new System.Drawing.Size(935, 290);
             this.ResponsePayLoadTab.TabIndex = 1;
             this.ResponsePayLoadTab.Text = "Response Payload";
             this.ResponsePayLoadTab.UseVisualStyleBackColor = true;
@@ -273,7 +272,7 @@
             this.ResponsePayload.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ResponsePayload.Location = new System.Drawing.Point(3, 3);
             this.ResponsePayload.Name = "ResponsePayload";
-            this.ResponsePayload.Size = new System.Drawing.Size(938, 378);
+            this.ResponsePayload.Size = new System.Drawing.Size(929, 284);
             this.ResponsePayload.TabIndex = 0;
             this.ResponsePayload.Text = "";
             // 
@@ -283,7 +282,7 @@
             this.RequestPayloadTab.Location = new System.Drawing.Point(4, 25);
             this.RequestPayloadTab.Name = "RequestPayloadTab";
             this.RequestPayloadTab.Padding = new System.Windows.Forms.Padding(3);
-            this.RequestPayloadTab.Size = new System.Drawing.Size(944, 384);
+            this.RequestPayloadTab.Size = new System.Drawing.Size(935, 287);
             this.RequestPayloadTab.TabIndex = 0;
             this.RequestPayloadTab.Text = "Request Payload";
             this.RequestPayloadTab.UseVisualStyleBackColor = true;
@@ -293,7 +292,7 @@
             this.RequestPayload.Dock = System.Windows.Forms.DockStyle.Fill;
             this.RequestPayload.Location = new System.Drawing.Point(3, 3);
             this.RequestPayload.Name = "RequestPayload";
-            this.RequestPayload.Size = new System.Drawing.Size(938, 378);
+            this.RequestPayload.Size = new System.Drawing.Size(929, 281);
             this.RequestPayload.TabIndex = 0;
             this.RequestPayload.Text = "";
             // 
@@ -337,7 +336,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(949, 117);
+            this.groupBox1.Size = new System.Drawing.Size(949, 114);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -360,7 +359,7 @@
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.groupBox2.Location = new System.Drawing.Point(0, 117);
+            this.groupBox2.Location = new System.Drawing.Point(0, 114);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(949, 118);
             this.groupBox2.TabIndex = 17;
@@ -512,9 +511,9 @@
             this.groupBox3.AutoSize = true;
             this.groupBox3.Controls.Add(this.tabControl);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox3.Location = new System.Drawing.Point(0, 235);
+            this.groupBox3.Location = new System.Drawing.Point(0, 232);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(949, 337);
+            this.groupBox3.Size = new System.Drawing.Size(949, 340);
             this.groupBox3.TabIndex = 18;
             this.groupBox3.TabStop = false;
             // 
